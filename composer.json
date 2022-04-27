@@ -1,7 +1,7 @@
 {
-    "name": "laravel-notification-channels/apn",
-    "description": "Apple APN Push Notification Channel",
-    "homepage": "https://github.com/laravel-notification-channels/apn",
+    "name": "zurka/apn",
+    "description": "Fork of laravel-notification-channels/apn",
+    "homepage": "https://github.com/zurka/apn",
     "license": "MIT",
     "authors": [
         {
@@ -10,9 +10,15 @@
             "homepage": "https://fruitcake.nl"
         }
     ],
+    "repositories": [
+        {
+        "type": "git",
+        "url": "https://github.com/zurka/pushok.git"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "edamov/pushok": "^0.13",
+        "zurka/pushok": "^0.13.1",
         "illuminate/cache": "^8.0|^9.0",
         "illuminate/config": "^8.0|^9.0",
         "illuminate/events": "^8.0|^9.0",
